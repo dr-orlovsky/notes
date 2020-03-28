@@ -162,7 +162,7 @@ With all advantages the scheme still has some significant drawbacks:
    outputs), and it may cost more than the money earned by the Server for
    API calls.
 2. It can't efficiently work with subsatoshi payments.
-3. It is limited in the number of payments in a single mircopayment transaction
+3. It is limited in the number of payments in a single micropayment transaction
    to the maximum number of outputs that can fit in the block (tens of thousands).
    This may be still inefficient for high-frequency API calls, which may counts
    in millions per hour (for instance if we talk about car paying for each meter
